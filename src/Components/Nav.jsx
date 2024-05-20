@@ -37,7 +37,9 @@ const Nav = () => {
           </ul>
 
           <ul className="navbar-nav ms-auto">
-            <Link to={'/contact'} button className="btn bg-gradient-primary mb-0 buyNowBtn">Connect</Link>
+            <Link to={'/contact'}>
+            <button className="btn bg-gradient-primary mb-0 buyNowBtn">Connect</button>
+            </Link>
           </ul>
         </div>
       </div>

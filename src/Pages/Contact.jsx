@@ -47,7 +47,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="modal__footer">
-                  <button className="button button--primary">Send</button>
+                  <button className="button button-primary">Send</button>
                 </div>
               </div>
             </div>
