@@ -66,39 +66,21 @@
   
 
 .retro-grid-container {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
+    padding-top: 90px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    overflow: hidden;
+    justify-content: center;
+    width: 100vw;
+    margin: 0 auto;
     text-align: center;
   }
   
-  .retro-grid-container::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: repeating-linear-gradient(
-        #ffffff33 1px,
-        transparent 1px,
-        transparent 20px
-      ),
-      repeating-linear-gradient(
-        90deg,
-        #ffffff33 1px,
-        transparent 1px,
-        transparent 20px
-      );
-    z-index: 1;
+  .mydet{
+    padding-top: 150px;
   }
-  
+
   .retro-grid-text {
-    margin-top: -170px;
     position: relative;
     font-size: 5rem;
     font-weight: bold;

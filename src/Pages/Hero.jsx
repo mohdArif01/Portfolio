@@ -10,7 +10,7 @@ const Hero = () => {
       <Nav/> 
       <div className="retro-grid-container">
           <div className="">
-            <p className="btn-shine">Front-End Developer | UI/UX Designer</p>
+            <p className="btn-shine mydet">Front-End Developer | UI/UX Designer</p>
             <h1 className="retro-grid-text">MOHD ARIF</h1>
             <p className="retro-grid-paragraph ">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem,
