@@ -1,0 +1,36 @@
+.about{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-aboutme span{
+    font-size: 15px;
+    font-weight: 600;
+    color: orangered;
+}
+
+.about-myname h1{
+    margin-top: 10px;
+    font-size: 3rem;
+}
+
+.para1 p{
+    font-weight: 500;
+    color: rgb(97, 97, 97);
+    max-width: 70%;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 0.9rem;
+}
+.para2 p{
+    font-weight: 500;
+    color: rgb(97, 97, 97);
+    max-width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 0.9rem;
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Hero.css";
+import "../Pages/Hero.css";
 import Nav from "../Components/Nav";
 import ParticlesContainer from "../Components/ParticlesContainer";
 
@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <>
       <ParticlesContainer />
-      <Nav /> 
+      <Nav/> 
       <div className="retro-grid-container">
           <div className="">
             <p className="btn-shine">Front-End Developer | UI/UX Designer</p>

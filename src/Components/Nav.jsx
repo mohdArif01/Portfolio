@@ -1,39 +1,13 @@
 import React from "react";
 import './Nav.css'
+import { Link } from 'react-router-dom';
 
-// Icons
-import {
-  HiHome,
-  HiUser,
-  HiViewColumns,
-  HiRectangleGroup,
-  HiChatBubbleBottomCenterText,
-  HiEnvelope,
-} from "react-icons/hi2";
-
-// Nav Data
-export const navData = [
-  { name: "home", path: "/", Icon: HiHome },
-  { name: "about", path: "/about", Icon: HiUser },
-  { name: "services", path: "/services", Icon: HiRectangleGroup },
-  { name: "work", path: "/work", Icon: HiViewColumns },
-  {
-    name: "testimonials",
-    path: "/testimonials",
-    Icon: HiChatBubbleBottomCenterText,
-  },
-  {
-    name: "contact",
-    path: "/contact",
-    Icon: HiEnvelope,
-  },
-];
 
 const Nav = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light z-index-3 py-3">
       <div className="container">
-        <a
+        <Link to={'/'}
           className="navbar-brand"
           href=""
           rel="tooltip"
@@ -42,39 +16,28 @@ const Nav = () => {
           target="_blank"
         >
           Soft UI Design System
-        </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navigation"
-          aria-controls="navigation"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
+        </Link>
         <div className="collapse navbar-collapse " id="navigation">
           <ul className="navbar-nav navbar-nav-hover mx-auto menuElements">
             <li className="nav-item px-3">
-              <a className="nav-link">Home</a>
+              <Link to={'/'} className="nav-link">Home</Link>
             </li>
 
             <li className="nav-item px-3">
-              <a className="nav-link">Services</a>
+              <Link to={'/services'} className="nav-link">Services</Link>
             </li>
 
             <li className="nav-item px-3">
-              <a className="nav-link">Works</a>
+              <Link to={'/work'} className="nav-link">Works</Link>
             </li>
 
             <li className="nav-item px-3">
-              <a className="nav-link ">Testimonals</a>
+              <Link to={'/about'} className="nav-link ">About Me</Link>
             </li>
           </ul>
 
           <ul className="navbar-nav ms-auto">
-            <button className="btn bg-gradient-primary mb-0 buyNowBtn">Connect</button>
+            <Link to={'/contact'} button className="btn bg-gradient-primary mb-0 buyNowBtn">Connect</Link>
           </ul>
         </div>
       </div>

@@ -1,24 +1,39 @@
 import './App.css';
-// import { AnimatePresence, motion } from 'framer-motion';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import Layout from './Components/Layout';
-// import { Component } from 'react';
-// import Transition from './Components/Transition';
+import Hero from './Pages/Hero';
+import Services from './Pages/Services';
+import Work from './Pages/Work';
+// import Nav from './Components/Nav';
 
-// import ServiceSlider from './Pages/ServiceSlider';
-// import Services from './Pages/Services';
-import Work from './Pages/Work'
+import Loader from './Components/Loader';
+import { useState, useEffect } from 'react';
+import Contact from './Pages/Contact';
+import About from './Pages/About';
+
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+  
+  useEffect(() =>{
+    // Simulate data fetching or other loading process here
+    setTimeout(()=>{
+      setIsLoading(false);
+    }, 300)
+  }, []);
+
   return (
-    // <Layout>
-    //   <AnimatePresence mode='wait'>
-    //     <motion.div className='h-full'>
-    //       <Transition/>
-    //     </motion.div>
-    //   </AnimatePresence>
-    // </Layout>
-    <Work/>
+    <BrowserRouter>
+    {isLoading ? <Loader/> : (
+      <Routes>
+        <Route path='/' element={<Hero/>} />
+        <Route path='/services' element={<Services/>} />
+        <Route path='/work' element={<Work/>} />
+        <Route path='/contact' element={<Contact/>} />
+        <Route path='/about' element={<About/>} />
+      </Routes>
+     )}
+    </BrowserRouter>
   );
 }
 

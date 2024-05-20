@@ -69,7 +69,6 @@
     position: relative;
     width: 100vw;
     height: 100vh;
-    /* background: linear-gradient(to bottom, #000000, #434343); */
     display: flex;
     justify-content: center;
     align-items: center;

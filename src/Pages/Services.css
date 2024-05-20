@@ -10,7 +10,7 @@
   color: red;
 }
 
-.card {
+.carda {
   width: 190px;
   height: 254px;
   background: #07182E;
@@ -22,13 +22,13 @@
   border-radius: 20px;
 }
 
-.card h2 {
+.carda h2 {
   z-index: 1;
   color: white;
   font-size: 2em;
 }
 
-.card::before {
+.carda::before {
   content: '';
   position: absolute;
   width: 300px;
@@ -48,7 +48,7 @@
   }
 }
 
-.card::after {
+.carda::after {
   content: '';
   position: absolute;
   background: #07182E;
@@ -56,7 +56,7 @@
   inset: 2px;
   border-radius: 15px;
 }  
-.card:hover:before {
+.carda:hover:before {
   background-image: linear-gradient(180deg, rgb(81, 255, 0), purple);
   animation: rotBGimg 3.5s linear infinite;
 }
