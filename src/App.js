@@ -11,7 +11,6 @@ import { useState, useEffect } from 'react';
 import Contact from './Pages/Contact';
 import About from './Pages/About';
 
-
 function App() {
   const [isLoading, setIsLoading] = useState(true);
   

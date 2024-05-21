@@ -7,10 +7,10 @@ const Hero = () => {
   return (
     <>
       <ParticlesContainer />
-      <Nav/> 
-      <div className="retro-grid-container">
-          <div className="">
-            <p className="btn-shine mydet">Front-End Developer | UI/UX Designer</p>
+      <Nav/>
+      <div className="retro-grid-container container">
+          <div className="mydet container d-flex flex-column align-items-center justify-content-center">
+            <p className="btn-shine brief">Front-End Developer | UI/UX Designer</p>
             <h1 className="retro-grid-text">MOHD ARIF</h1>
             <p className="retro-grid-paragraph ">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem,
