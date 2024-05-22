@@ -2,19 +2,20 @@ import React from "react";
 import "../Pages/About.css";
 import Nav from "../Components/Nav";
 import ParticleContainer2 from "../Components/ParticleContainer2";
+import TextEffect from "../Components/TextEffect/TextEffect";
 
 const About = () => {
   return (
     <>
       <ParticleContainer2 />
       <Nav />
-      <div className="main-container position-relative">
-        <div className="container about d-flex flex-column ">
+      <div className="main-container container position-relative">
           <div className="container about-aboutme">
             <span>ABOUT ME</span>
           </div>
+        <div className="container about">
           <div className="about-myname">
-            <h1>Hi. I'm Mohd Arif</h1>
+          <TextEffect/>
           </div>
           <div className="about-detail">
             <div className="para1">
@@ -36,9 +37,10 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="about-apps"></div>
         </div>
+        
       </div>
+      
     </>
   );
 };

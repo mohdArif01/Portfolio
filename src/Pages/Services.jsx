@@ -1,10 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-
-import '../Pages/Services.css'
-
 import { fadeIn } from "../variants";
-import ServiceSlider from './ServiceSlider';
+import WorkSlider from "./WorkSlider";
+import '../Pages/Services.css'
 
 import Nav from "../Components/Nav";
 
@@ -12,40 +10,15 @@ const Services = () => {
   return (
     <div className="h-full flex items-center">
       <Nav/>
-        <div className="container mx-auto">
-          <div className="d-flex flex-column flex-xl-column gap-x-8">
-            {/* Text */}
-            <div className="mydiv w-xl-30vw text-lg-left mb-4 mb-lg-0">
-              <motion.h2
-                variants={fadeIn("up", 0.2)}
-                initial="hidden"
-                animate="show"
-                exit="hidden"
-                className="h2 mt-8"
-              >
-                My services<span className="text-accent">.</span>
-              </motion.h2>
-              <motion.p
-                variants={fadeIn("up", 0.4)}
-                initial="hidden"
-                animate="show"
-                exit="hidden"
-                className="mb-4 max-w-400 mx-auto mx-lg-0"
-              >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-                tempora eligendi, quisquam tempore sint reiciendis.
-              </motion.p>
+        <div>
+          <div className="container main-container">
+            <div><h2 className="d-inline">My Services</h2> <span className="text-accent">.</span> </div>
+            <div>
+              <p className="my-text"> I'll be glad to help you in the domain of <span className="highlights">UI UX Designing</span> in which I provide best User Inteface and best User Experience also I have a good command in the <span className="highlights">Front-End Development</span> and will be able to help you also with <span className="highlights">Logo designing</span> and <span className="highlights">Banner Designing</span> . </p>
             </div>
-
-            <motion.div
-              variants={fadeIn("down", 0.6)}
-              initial="hidden"
-              animate="show"
-              exit="hidden"
-              className="w-full xl:max-w-65"
-            >
-              <ServiceSlider/>
-            </motion.div>
+            <div>
+            <WorkSlider/>
+            </div>
           </div>
         </div>
     </div>

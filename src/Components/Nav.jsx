@@ -15,7 +15,7 @@ const Nav = () => {
           data-placement="bottom"
           target="_blank"
         >
-          Soft UI Design System
+          Portfolio &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </Link>
         <div className="collapse navbar-collapse " id="navigation">
           <ul className="navbar-nav navbar-nav-hover mx-auto menuElements">
