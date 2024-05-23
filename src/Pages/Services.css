@@ -8,6 +8,11 @@
   margin: 0 auto;
 }
 
+.service-text-accent{
+  color: red;
+  font-size: 2rem;
+}
+
 .highlights{
   font-weight: 500;
   color: rgb(28, 28, 28);

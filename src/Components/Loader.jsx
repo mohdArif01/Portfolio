@@ -2,8 +2,6 @@ import React from "react";
 import "./Loader.css";
 
 const Loader = () => {
-    // "--rotation-duration:0ms; --rotation-direction:normal;"
-    // const style1 = { "--rotation-duration":"0ms", "--rotation-direction":"normal" }
 
   return (
     

@@ -5,7 +5,7 @@ import CardEffect from '../Components/CardEffect/CardEffect'
 import '../Pages/Work.css'
 
 import { fadeIn } from "../variants";
-import { motion } from 'framer-motion'
+import { motion } from 'framer-motion';
 
 const Work = () => {
   return (
@@ -18,11 +18,24 @@ const Work = () => {
               <h2>
                 My Works<span className="text-accent">.</span>
               </h2>
-              <p className='mt-4'>
+              <motion.p
+                variants={fadeIn("down", 0.4)}
+                initial = "hidden"
+                animate = "show"
+                exit= "hidden" 
+               className='mt-4 work-det'>
                 Currently these are my <span className="highlights">Designing</span> works which includes the Web and <span className="highlights">Mobile App</span> designing of a <span className="highlights">Real</span> projects.
-              </p>
+              </motion.p>
             </div>
-            <CardEffect/>
+            <motion.div 
+            variants={fadeIn("up", 0.4)}
+            initial = "hidden"
+            animate = "show"
+            exit= "hidden"
+            className='cardEff'
+            >
+              <CardEffect/>
+            </motion.div>
           </div>
         </div>
     </div>

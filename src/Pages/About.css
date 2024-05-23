@@ -28,8 +28,12 @@
     font-size: 3rem;
 }
 
+.highlights{
+    font-weight: 600;
+}
+
 .para1 p{
-    font-weight: 500;
+    font-weight: 400;
     color: rgb(97, 97, 97);
     max-width: 70%;
     text-align: left;
@@ -37,7 +41,7 @@
     font-size: 0.9rem;
 }
 .para2 p{
-    font-weight: 500;
+    font-weight: 400;
     color: rgb(97, 97, 97);
     max-width: 70%;
     text-align: left;

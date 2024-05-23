@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from 'react-router-dom';
+
 import "../Pages/Hero.css";
 import Nav from "../Components/Nav";
 import ParticlesContainer from "../Components/ParticlesContainer";
@@ -17,7 +19,9 @@ const Hero = () => {
               impedit cupiditate repellendus beatae harum quo! Necessitatibus
               sequi dolores at doloribus ducimus incidunt et nam!
             </p>
-            <button type="button" className="btn button"> <span className="letstalk">Let's Talk</span>  <span className="itsfree" >- it's free</span> </button>
+            <Link to={'/contact'}>
+              <button type="button" className="btn button"> <span className="letstalk">Let's Talk</span>  <span className="itsfree" >- it's free</span> </button>
+            </Link>
             
           </div>
         

@@ -1,5 +1,5 @@
 import React from "react";
-import '../Pages/WorkSlider.css'
+import '../CardEffect_service/WorkSlider.css'
 
 const WorkSlider = () => {
   return (

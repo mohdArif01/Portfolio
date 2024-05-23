@@ -20,7 +20,7 @@
       right: 0;
       bottom: calc(var(--deco-height) * -0.625);
       height: var(--deco-height);
-      background-image: url('../../../public/Assets/Zig-Zag.svg');
+      background-image: url(../../Assets//Zig-Zag.svg);
       background-size: auto 100%;
       /* background-repeat: round; */
       background-position: 0em;
