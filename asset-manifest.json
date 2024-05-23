@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.f4a164f3.css",
+    "main.js": "/Portfolio/static/js/main.9dc170bb.js",
+    "static/js/453.acca0757.chunk.js": "/Portfolio/static/js/453.acca0757.chunk.js",
+    "static/media/ser3.png": "/Portfolio/static/media/ser3.29067504109b422e1380.png",
+    "static/media/ser4.png": "/Portfolio/static/media/ser4.fcff2bef9e1ba6d34216.png",
+    "static/media/ser2.png": "/Portfolio/static/media/ser2.acc5bd13d1f4f3a729ad.png",
+    "static/media/Landing Page2.png": "/Portfolio/static/media/Landing Page2.728e9888aaff400e8320.png",
+    "static/media/Landing Page4.png": "/Portfolio/static/media/Landing Page4.03dfee3710d06c8bb685.png",
+    "static/media/Landing Page3.png": "/Portfolio/static/media/Landing Page3.d2708cad5648bd1f31a7.png",
+    "static/media/Landing Page1.png": "/Portfolio/static/media/Landing Page1.c9f925b66ed00ee25dd8.png",
+    "static/media/logo2logo.png": "/Portfolio/static/media/logo2logo.430759df72523827e98f.png",
+    "static/media/ser1.png": "/Portfolio/static/media/ser1.14acde1d05bbe7ce994f.png",
+    "static/media/Zig-Zag.svg": "/Portfolio/static/media/Zig-Zag.cf7c087fa95ded4c4e2f.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.f4a164f3.css.map": "/Portfolio/static/css/main.f4a164f3.css.map",
+    "main.9dc170bb.js.map": "/Portfolio/static/js/main.9dc170bb.js.map",
+    "453.acca0757.chunk.js.map": "/Portfolio/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4a164f3.css",
+    "static/js/main.9dc170bb.js"
+  ]
+}
